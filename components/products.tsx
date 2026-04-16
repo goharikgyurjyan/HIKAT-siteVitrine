@@ -6,27 +6,27 @@ import { Check } from "lucide-react"
 
 const mainProducts = [
   {
-    name: "HIKAT Chaton",
+    name: "HIKAT Explorer",
     description: "Le premier sac de votre chaton. Idéal pour l'habituer en douceur aux sorties.",
-    price: 70,
+    price: 100,
     image: "/images/sac-chaton.jpg",
     features: ["Jusqu'à 3kg", "Compact et léger", "Intérieur douillet", "Idéal premiers mois"],
     badge: "Nouveauté",
     badgeColor: "bg-secondary text-secondary-foreground"
   },
   {
-    name: "HIKAT Classique",
+    name: "HIKAT Aventure",
     description: "Notre sac de face signature. Le parfait équilibre confort, sécurité et style.",
-    price: 110,
+    price: 140,
     image: "/images/backpack-forest.jpg",
     features: ["Jusqu'à 7kg", "Ventilation mesh", "Harnais sécurisé", "Contact visuel"],
     badge: "Best-seller",
     badgeColor: "bg-foreground text-primary-foreground"
   },
   {
-    name: "HIKAT Pro",
+    name: "HIKAT Summit",
     description: "Pour les grandes aventures. Technique et confortable pour les longues randonnées.",
-    price: 180,
+    price: 230,
     image: "/images/sac-premium.jpg",
     features: ["Jusqu'à 10kg", "Double ventilation", "Support lombaire", "Extensible"],
     badge: "Premium",
@@ -41,13 +41,6 @@ const accessories = [
     price: 29,
     image: "/images/fontaine-portative.jpg",
     features: ["Capacité 350ml", "Anti-fuite", "Bol pliable", "Ultra légère"]
-  },
-  {
-    name: "Module Épaules",
-    description: "Permettez à votre chat de se percher sur vos épaules en toute sécurité.",
-    price: 59,
-    image: "/images/module-epaules.jpg",
-    features: ["Harnais sécurisé", "Rembourrage confort", "Compatible tous sacs", "Vue panoramique"]
   }
 ]
 

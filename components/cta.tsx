@@ -14,7 +14,7 @@ export function CTA() {
         </h2>
         <p className="text-primary-foreground/80 text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed">
           Rejoignez la communauté des aventuriers félins. 
-          Livraison gratuite en France métropolitaine et retours sous 30 jours.
+          Livraison gratuite en France métropolitaine et retours sous 14 jours.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
@@ -49,7 +49,7 @@ export function CTA() {
         </div>
 
         <p className="text-primary-foreground/60 text-sm mt-8">
-          Made in France | Livraison gratuite | Retours 30 jours | 4.9/5 avis clients
+          Made in France | Livraison gratuite | Retours 14 jours
         </p>
       </div>
     </section>

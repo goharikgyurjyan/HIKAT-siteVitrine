@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     question: "Quel sac choisir pour mon chat ?",
-    answer: "Le HIKAT Chaton (69€) est parfait pour les chatons jusqu'à 3kg. Le HIKAT Classique (109€) convient aux chats jusqu'à 7kg. Le HIKAT Pro (249€) est idéal pour les grands chats jusqu'à 10kg ou les longues randonnées."
+    answer: "Le HIKAT Chaton (100€) est parfait pour les chatons jusqu'à 3kg. Le HIKAT Classique (140€) convient aux chats jusqu'à 7kg. Le HIKAT Pro (230€) est idéal pour les grands chats jusqu'à 10kg ou les longues randonnées."
   },
   {
     question: "Comment fonctionne le programme de reprise ?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: "Les sacs sont-ils vraiment fabriqués en France ?",
-    answer: "Absolument ! Tous nos sacs sont conçus et assemblés dans nos ateliers en Auvergne. Nous travaillons avec des artisans locaux et privilégions les matériaux français quand c'est possible."
+    answer: "Absolument ! Tous nos sacs sont conçus et assemblés dans nos ateliers. Nous travaillons avec des artisans locaux et utilisons des matériaux 100% français."
   },
   {
     question: "Combien de temps mon chat peut-il rester dans le sac ?",
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: "Quelle est votre politique de retour ?",
-    answer: "Vous avez 30 jours pour essayer votre sac HIKAT. Si vous ou votre chat n'êtes pas satisfaits, nous vous remboursons intégralement. Nous offrons aussi 2 ans de garantie sur tous nos produits."
+    answer: "Vous avez 14 jours pour essayer votre sac HIKAT. Si vous ou votre chat n'êtes pas satisfaits, nous vous remboursons intégralement."
   }
 ]
 
