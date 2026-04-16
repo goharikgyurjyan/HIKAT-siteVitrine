@@ -8,13 +8,13 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/sac-face-chat.jpg"
+          src="/images/lechatdehors.png"
           alt="Randonneur avec son chat dans un sac de face HIKAT"
-          fill
           className="object-cover"
+          fill
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#1a3a2a]/95 via-[#1a3a2a]/80 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-r from-[#1a3a2a]/95 via-[#1a3a2a]/80 to-transparent" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -34,7 +34,7 @@ export function Hero() {
           </p>
 
           <p className="text-lg text-[#e8d9a0]/80 mb-8 max-w-xl leading-relaxed">
-            Votre chat mérite mieux que les quatre murs de votre appartement. Nos sacs de face 
+            Votre chat mérite mieux que les quatre murs de votre appartement. Nos sacs ventraux
             vous permettent de partager vos aventures en toute sécurité, face à face. 
             Renforcez votre lien, vivez des moments uniques.
           </p>

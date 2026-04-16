@@ -39,7 +39,6 @@ export function Footer() {
               <li><Link href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">HIKAT Explorer</Link></li>
               <li><Link href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">HIKAT Aventure</Link></li>
               <li><Link href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">HIKAT Summit</Link></li>
-              <li><Link href="#" className="text-muted-foreground hover:text-foreground transition-colors text-sm">Accessoires</Link></li>
             </ul>
           </div>
 

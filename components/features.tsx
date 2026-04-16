@@ -30,7 +30,7 @@ const features = [
   {
     icon: Award,
     title: "Made in France",
-    description: "Fabriqué artisanalement dans nos ateliers en Auvergne. Qualité et savoir-faire français."
+    description: "Fabriqué artisanalement dans nos ateliers. Qualité et savoir-faire français."
   }
 ]
 
@@ -115,7 +115,7 @@ export function Features() {
             </div>
             <div className="relative h-80 md:h-full rounded-2xl overflow-hidden">
               <Image
-                src="/images/cat-adventure.jpg"
+                src="/images/lechatdedans.png"
                 alt="Communauté HIKAT en randonnée"
                 fill
                 className="object-cover"

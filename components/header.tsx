@@ -31,9 +31,6 @@ export function Header() {
             <Link href="#avantages" className="text-foreground hover:text-muted-foreground transition-colors font-medium">
               Pourquoi HIKAT
             </Link>
-            <Link href="#temoignages" className="text-foreground hover:text-muted-foreground transition-colors font-medium">
-              Témoignages
-            </Link>
             <Link href="#faq" className="text-foreground hover:text-muted-foreground transition-colors font-medium">
               FAQ
             </Link>

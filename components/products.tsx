@@ -9,25 +9,25 @@ const mainProducts = [
     name: "HIKAT Explorer",
     description: "Le premier sac de votre chaton. Idéal pour l'habituer en douceur aux sorties.",
     price: 100,
-    image: "/images/sac-chaton.jpg",
+    image: "/images/sac_explorer_display.png",
     features: ["Jusqu'à 3kg", "Compact et léger", "Intérieur douillet", "Idéal premiers mois"],
-    badge: "Nouveauté",
+    badge: "Starter",
     badgeColor: "bg-secondary text-secondary-foreground"
   },
   {
-    name: "HIKAT Aventure",
+    name: "HIKAT Adventure",
     description: "Notre sac de face signature. Le parfait équilibre confort, sécurité et style.",
     price: 140,
-    image: "/images/backpack-forest.jpg",
+    image: "/images/sac_adventure_display.png",
     features: ["Jusqu'à 7kg", "Ventilation mesh", "Harnais sécurisé", "Contact visuel"],
-    badge: "Best-seller",
+    badge: "Le Favori",
     badgeColor: "bg-foreground text-primary-foreground"
   },
   {
     name: "HIKAT Summit",
     description: "Pour les grandes aventures. Technique et confortable pour les longues randonnées.",
     price: 230,
-    image: "/images/sac-premium.jpg",
+    image: "/images/sac_summit_display.png",
     features: ["Jusqu'à 10kg", "Double ventilation", "Support lombaire", "Extensible"],
     badge: "Premium",
     badgeColor: "bg-[#8b6914] text-[#e8d9a0]"
@@ -124,55 +124,6 @@ export function Products() {
               <p className="text-muted-foreground">sur votre prochain sac</p>
             </div>
           </div>
-        </div>
-
-        {/* Accessories */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <Badge variant="outline" className="mb-4 border-foreground text-foreground">
-            Accessoires
-          </Badge>
-          <h2 className="font-serif text-3xl sm:text-4xl text-foreground mb-6">
-            Complétez votre équipement
-          </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Des accessoires pensés pour rendre vos aventures encore plus agréables.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {accessories.map((accessory) => (
-            <Card key={accessory.name} className="group overflow-hidden border-border hover:border-foreground/30 transition-all duration-300">
-              <div className="flex flex-col sm:flex-row">
-                <div className="relative w-full sm:w-48 h-48 overflow-hidden flex-shrink-0">
-                  <Image
-                    src={accessory.image}
-                    alt={accessory.name}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                </div>
-                <CardContent className="p-6 flex flex-col justify-between">
-                  <div>
-                    <h3 className="font-serif text-xl text-foreground mb-2">{accessory.name}</h3>
-                    <p className="text-muted-foreground text-sm mb-4">{accessory.description}</p>
-                    <ul className="flex flex-wrap gap-2 mb-4">
-                      {accessory.features.map((feature) => (
-                        <li key={feature} className="text-xs bg-muted px-2 py-1 rounded text-foreground">
-                          {feature}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="font-serif text-2xl text-foreground">{accessory.price}€</span>
-                    <Button size="sm" className="bg-foreground text-primary-foreground hover:bg-foreground/90">
-                      Ajouter
-                    </Button>
-                  </div>
-                </CardContent>
-              </div>
-            </Card>
-          ))}
         </div>
       </div>
     </section>
